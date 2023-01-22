@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Comfortaa:wght@300&display=swap');
+:root {
+	/* change the values below to your colors from your palette */
+	--primary-color: #67D692   ;
+	--secondary-color: #E1E6EB ;
+	--accent1-color: #82D1CE;
+	--accent2-color: #7A98E9;
+  
+	/* change the values below to your chosen font(s) */
+	/*--heading-font: "IM Fell French Canon";
+	--paragraph-font: Lato, Helvetica, sans-serif;*/
+  
+	--heading-font: 'Amaranth';
+	--paragraph-font: 'Comfortaa', Helvetica, sans-serif;
+  
+	/* these colors below should be chosen from among your palette colors above */
+	--headline-color-on-white: #396E94;  /* headlines on a white background */ 
+	--headline-color-on-color: white; /* headlines on a colored background */ 
+	--paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+	--paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+	--paragraph-background-color: #82D1CE  ;
+	--nav-link-color: white;
+	--nav-background-color: #F8BE37;
+	--nav-hover-link-color: #F8BE37;
+	--nav-hover-background-color: #438DB3;
+  }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+header,
+footer {
+	background-color: #708080;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+/*
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
+
+p {
+	padding: .5rem;
+}
+*/
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 0 30px #333;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
+}
+
+/*main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+}*/
+main h2, h3, h4{
+	margin: 25px;
+	text-align: center;
+	font-family: var(--heading-font);
+}
+main a{
+	display: block;
+	text-align: center;
+}
+main p{
+	margin: 15px 25px;
+	text-align: justify;
+	font-family: var(--paragraph-font);
+}
+main img{
+	display: block;
+	margin: 25px auto;
+
+}
+/* Design Color Pallet*/
+.colors {
+	width: 100%;
+	min-width: 350px;
+	margin: 30px auto;
+	text-align: center;
+}
+.colors th {
+	background-color: #999;
+}
+.colors td{
+	width: 25%;
+	height: 3em;
+}
+.primary {
+	background-color: var(--primary-color);
+  }
+  .secondary {
+	background-color: var(--secondary-color);
+  }
+  .accent1 {
+	background-color: var(--accent1-color);
+  }
+  .accent2{
+	background-color: var(--accent2-color);
+  }
+  p.colored {
+	background-color: var(--paragraph-background-color);
+	color: var(--paragraph-color-on-color);
+	padding: 15px;
+  }
+/* End Design Color Pallet*/
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+}
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}
