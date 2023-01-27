@@ -9,6 +9,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0 auto;
+    width: 60%;
+}
 header{
     /*border:1px dashed black;*/
     display: flex;
@@ -22,14 +26,10 @@ header h1{
     font-family: var(--heading-font);
     font-weight: 600;
     color: white;
-    /*text-shadow: 0px 0px 10px rgb(22, 22, 22);*/
-    /*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
     text-shadow: 2px 2px 20px #000000;
 }
 .profile{
     margin: 15px 25px;
-    width: 200px;
-    height: 250px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
