@@ -94,6 +94,8 @@ nav ul.open {display: block;}
 #hamburguerBtn.open span:nth-child(2) {display: block;}
 main{
     padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 main div{
