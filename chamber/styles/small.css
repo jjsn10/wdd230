@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:  rgb(97, 96, 96);
+}
+header img{
+    width: 70px;
+    height: 60px;
+}
+#date{
+    border: 1px solid gray;
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Amaranth';
+    font-size: 0.8rem;
+    background-color: rgb(126, 126, 126);
+}
+nav{
+    /*background-color: rgb(49, 49, 49);*/
+    align-self: flex-start;
+    background-color:  rgb(97, 96, 96);
+}
+nav button {
+    margin: .6rem 2vw; 
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    border: 1px solid rgb(126 126 126);
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+.social{
+   padding-top: 15px;
+}
+.social i:nth-child(1){
+    margin-right: 5px;
+    margin-left: 5px;
+    color: rgb(7, 27, 94);
+}
+.social i:nth-child(2){
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(6, 94, 209);
+}
+.headings{
+    font-family: 'Amaranth';
+    color: white;
+}
+.headings h3{
+    margin-top: 8px;
+    font-size: 0.8rem;
+}
+.headings h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+header nav ul li a:hover{
+    background-color: rgb(99, 97, 97);
+}
+
+
+nav ul { display:none;}
+nav ul.open {display: block;}
+
+#hamburguerBtn span:nth-child(1) {display: block;}
+#hamburguerBtn span:nth-child(2) {display: none;}
+
+#hamburguerBtn.open span:nth-child(1) {display: none;}
+#hamburguerBtn.open span:nth-child(2) {display: block;}
+main{
+    padding: 5px;
+}
+
+main div{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(143, 142, 142);
+    margin:3px auto;
+    padding: 10px;
+    font-family: 'Comfortaa';
+    font-size: 0.8rem;
+    background-color: rgb(240, 239, 239);
+}
+.spotlight{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #555;
+    margin:3px auto;
+    padding: 10px;
+    font-family: 'Comfortaa';
+    font-size: 0.8rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(97, 96, 96);
+    padding: 10px;
+}
+footer img{
+    width: 160px;
+    height: 150px;
+}
+footer h2{
+    font-family: 'Amaranth';
+    color: white;
+}
+footer hr{
+    margin-top:10px;
+    margin-bottom:10px;
+    width:90%;
+}
+footer p{
+    font-family: 'Comfortaa';
+    font-size: 0.8rem;
+    color:white;
+    margin: 5px 0;
+}
+footer span{
+    font-family: 'Comfortaa';
+    font-size: 0.8rem;
+    color:white;
+    margin: 2px 0;
+}
