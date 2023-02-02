@@ -117,12 +117,20 @@ main div{
     font-family: 'Comfortaa';
     font-size: 0.8rem;
 }
+.join{
+    display: none;
+}
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:  rgb(97, 96, 96);
     padding: 10px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer img{
     width: 160px;
@@ -137,11 +145,16 @@ footer hr{
     margin-bottom:10px;
     width:90%;
 }
-footer p{
+footer .footer1 p{
     font-family: 'Comfortaa';
     font-size: 0.8rem;
     color:white;
-    margin: 5px 0;
+    margin: 7px 0;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer span{
     font-family: 'Comfortaa';
@@ -149,3 +162,10 @@ footer span{
     color:white;
     margin: 2px 0;
 }
+.title_address{
+    text-align: center;
+}
+.phone_location{
+    text-align: center;
+}
+

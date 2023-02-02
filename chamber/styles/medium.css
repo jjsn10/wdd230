@@ -1,5 +1,41 @@
 /* 35rem is also 560px whem basefont is 16px */
 
 @media only screen and (min-width:35rem){
-    
+    .hero{
+        order:1
+    }
+    .event{
+        order:5;
+        width: 40%;
+        margin:0;
+    }
+    .weather{
+        order:6;
+        width:40%;
+        margin:0;
+    }
+    .release{
+        order:2;
+    }
+    .spotlight{
+        display: flex;
+        order:3;
+    }
+    .join{
+        order:4;
+        display: block;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer2{
+        display: flex;
+        flex-direction: row;
+    }
 }
