@@ -1,18 +1,31 @@
 /* 35rem is also 560px whem basefont is 16px */
 
 @media only screen and (min-width:35rem){
+    header img{
+        margin: 5px 5px;
+    }
+    .headings{
+        flex-grow: 2;
+    }
+    .headings h2{
+        font-size: 1.4rem;
+    }
+    .social{
+        flex-grow: 2;
+        text-align: center;
+    }
+    .social i{
+        font-size: 1.5rem;
+    }
     .hero{
         order:1
     }
-    .event{
-        order:5;
-        width: 40%;
-        margin:0;
-    }
-    .weather{
-        order:6;
-        width:40%;
-        margin:0;
+    .event_weather{
+        display: flex;
+        flex-direction: row;
+        order:4;
+        border: 0;
+        height: 100%;
     }
     .release{
         order:2;
@@ -49,10 +62,19 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-
+    }
+    footer .footer1 p{
+        font-size: 1rem;
+    }
+    footer .footer2 span{
+        font-size: 1rem;
     }
     .title_address{
         text-align: left;
+        flex-grow: 2;
+    }
+    .phone_location{
+        margin: 0 10px;
     }
     footer span:not(:nth-child(0)):not(:nth-child(4)){
         border-right: 1px solid white;
