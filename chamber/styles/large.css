@@ -19,4 +19,12 @@
     .footer1{
         width: 80%;
     }
+   main{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+   }
+   
+   
 }
