@@ -20,3 +20,4 @@ let current_time = getCurrentDate.toLocaleTimeString('en-US',options_time)
 
 let html_date_time=document.querySelector('#date_time');
 html_date_time.textContent =` ${date_formated} ${current_time}`
+
