@@ -156,6 +156,7 @@ main div{
 }
 .event{
     background-color: #7A98E9;
+    height: auto;
 }
 .event h3{
    display: block;
@@ -182,6 +183,7 @@ main div{
 }
 .weather{
     background-color: #7A98E9;
+    height: auto;
 }
 .weather h3{
     display: block;
@@ -199,10 +201,30 @@ main div{
     font-size: 1.4rem;
 }
 .weather_info span{
-    
+    color: white;
 }
 .weather img{
     width: 80px;
+}
+.weather h4{
+    display: block;
+    text-align: right;
+    color:white;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+}
+.weather_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    background-color:  #7A98E9;
+    align-items: center;
+    border: none;
+    font-size: 0.9rem;
+}
+.weather_details span{
+    color: white;
 }
 .spotlight{
     width: 100%;
