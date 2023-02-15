@@ -235,6 +235,29 @@ main div{
     font-family: 'Comfortaa';
     font-size: 0.8rem;
 }
+.spotlight1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*background-image: url(../images/billboards-marketing.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/billboards-marketing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spotlight1 h3{
+    text-shadow: 2px 2px 5px rgb(107, 106, 106);
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Amaranth';
+}
+.spotlight1 p{
+    color: #d0c41a;
+    text-shadow: 2px 2px 5px rgb(107, 106, 106);
+    font-size: 1.0rem;
+    font-family: 'Comfortaa';
+
+}
 .join{
     display: none;
 }
