@@ -36,7 +36,24 @@
     }
     .join{
         order:4;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: var(--background-div);
+    }
+    .join button{
+        padding: 20px;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        background-color: var(--color-button);
+        font-family: var(--heading-font);
+        font-size: 1.2rem;
+    }
+    .join p{
+        font-family: var(--paragraph-font);
+        color: white;
+        font-size: 1.1rem;
     }
     footer{
         margin: 0;
