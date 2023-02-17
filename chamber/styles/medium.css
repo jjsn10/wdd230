@@ -20,6 +20,9 @@
     .hero{
         order:1
     }
+    .hero h3{
+        font-size: 1.6rem;
+    }
     .event_weather{
         display: flex;
         flex-direction: row;
@@ -30,9 +33,56 @@
     .release{
         order:2;
     }
+    .release h3{
+        font-size: 1.6rem;
+    }
+    .release p{
+        font-size: 1rem;
+    }
     .spotlight{
         display: flex;
         order:3;
+    }
+    .spotlight1 h3{
+        font-size: 1.6rem;
+    }
+    .spotlight1 p{
+        font-size: 1rem;
+    }
+    .spotlight2 h3{
+        font-size: 1.6rem;
+    }
+    .spotlight2 p{
+        font-size: 1rem;
+    }
+    .spotlight3{
+        display: none;
+       /*height: 250px;*/
+    }
+    .event h3{
+        font-size: 1.6rem;
+    }
+    .event h4{
+        font-size: 1rem;
+    }
+    .event a{
+        font-size: 1.1rem;
+    }
+    .event p{
+        font-family: var(--paragraph-font);
+        font-size: 1.1rem;
+    }
+    .weather h3{
+        font-size: 1.6rem;
+    }
+    .weather h4{
+        font-size: 1.1rem;
+    }
+    .weather_details span{
+        font-size: 1.1rem;
+    }
+    .weather_info span{
+        font-size: 1.6rem;
     }
     .join{
         order:4;

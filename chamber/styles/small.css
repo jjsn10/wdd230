@@ -310,6 +310,9 @@ main div{
     font-size: 0.9rem;
     font-family: 'Comfortaa';
 }
+.spotlight3{
+    display: none;
+}
 .join{
     display: none;
 }

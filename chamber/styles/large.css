@@ -35,10 +35,12 @@
         border: 1px solid #555;
    }
    .event{
-        height: 500px;
+        /*height: 500px;*/
+        flex-grow: 1;
    }
    .weather{
-        height: 500px;
+        /*height: 500px;*/
+        flex-grow: 1;
    }
    .hero{
         grid-column: 2/6;
@@ -62,11 +64,38 @@
         grid-row: 1/4;
    }
    .spotlight1{
-    height: 500px;
+     flex-grow: 1;
+    /*height: 250px;*/
    }
    .spotlight2{
-    height: 500px;
+    /*height: 250px;*/
+    flex-grow: 1;
    }
+   .spotlight3{
+     /*height: 250px;*/
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*background-image: url(../images/billboards-marketing.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/townstorage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+   }
+   .spotlight3 h3{
+     text-shadow: 2px 2px 5px rgb(107, 106, 106);
+     /*color: white;*/
+     color: var(--font-heading-color);
+     font-size: 1.3rem;
+     font-family: 'Amaranth';
+  }
+ .spotlight3 p{
+     color: white;
+     text-shadow: 2px 2px 5px rgb(107, 106, 106);
+     font-size: 0.9rem;
+     font-family: 'Comfortaa';
+}
 
    
    
