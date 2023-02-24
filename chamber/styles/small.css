@@ -122,12 +122,18 @@ main div{
     background-color: rgb(240, 239, 239);
 }
 .hero{
-    background-image: url(../images/saratoga-springs.jpg);
-    background-position: center;
-    background-size: cover;
+    /*background-image: url(../images/saratoga-springs.jpg);*/
+    /*background-image: url(../images/wdd230-org.jpg);*/
+    /*background-position: center;
+    background-size: cover;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 100%;
+    height: auto;
+    
+    /*width: 1000px;
+    height: 539px;*/
 
 }
 .hero h3{
@@ -135,6 +141,8 @@ main div{
     text-shadow: 2px 2px 5px rgb(107, 106, 106);
     font-family: var(--heading-font);
     font-size: 1.3rem;
+    z-index:2;
+    top: 100px;
 }
 .hero button{
     display: inline-block;
