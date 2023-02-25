@@ -22,6 +22,12 @@
     }
     .hero h3{
         font-size: 1.6rem;
+        top: 16%;
+        left: 4%;
+    }
+    .hero button{
+        top:42%;
+        left: 35%;
     }
     .event_weather{
         display: flex;

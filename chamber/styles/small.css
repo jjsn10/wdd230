@@ -126,26 +126,34 @@ main div{
     /*background-image: url(../images/wdd230-org.jpg);*/
     /*background-position: center;
     background-size: cover;*/
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;*/
     width: 100%;
     height: auto;
+    padding: 0;
+    /*width: 334px;*/
+    /*width: 100%;*/
+    /*height: auto;*/
     
-    /*width: 1000px;
-    height: 539px;*/
 
 }
+.hero img{
+    width: 100%;
+    height: auto;
+}
 .hero h3{
+    position: absolute;
     color:#fff;
     text-shadow: 2px 2px 5px rgb(107, 106, 106);
     font-family: var(--heading-font);
     font-size: 1.3rem;
-    z-index:2;
-    top: 100px;
+    top: 14%;
+    left: 4%;
 }
 .hero button{
-    display: inline-block;
+    display: block;
+    position:absolute;
     padding: 10px;
     width:180px;
     text-align: center;
@@ -156,6 +164,8 @@ main div{
     color: #313131;
     font-size: 1.0rem;
     margin-left: 37%;
+    top:250px;
+    left: 2%;
     
 }
 .release{
