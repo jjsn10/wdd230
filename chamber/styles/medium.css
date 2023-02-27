@@ -20,15 +20,41 @@
     .hero{
         order:1
     }
-    /*.hero h3{
-        font-size: 1.6rem;
-        top: 16%;
-        left: 4%;
+    .hero picture{
+        grid-column: 1/6;
+        grid-row: 1/5;
+    }
+    .hero h3{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: var(--heading-font);
+        color:#fff;
+        text-shadow: 2px 2px 5px rgb(107, 106, 106);
     }
     .hero button{
-        top:42%;
-        left: 35%;
-    }*/
+        display: block;
+        /*position:absolute;*/
+        padding: 10px;
+        width:180px;
+        text-align: center;
+        background-color: #67D692;
+        text-decoration: none;
+        border:none;
+        border-radius: 10px;
+        color: #313131;
+        font-size: 1.0rem;
+        /*margin-left: 37%;
+        top:250px;
+        z-index: 2;
+        left: 2%;*/
+        grid-row: 4/5;
+        grid-column: 4/-1;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
     .event_weather{
         display: flex;
         flex-direction: row;
