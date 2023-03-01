@@ -1,0 +1,28 @@
+*{
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width:60%;
+    /*border:1px dashed red;*/
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+picture{
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+}
+img[data-src]{
+    filter: blur(0.2em);
+}
+picture img{
+    border: 1px solid gray;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

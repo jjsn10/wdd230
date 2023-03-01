@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazyload | Load Images</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src="images/placeholder.png" data-src="http://placekitten.com/300/400" alt="kitten"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="https://placeimg.com/300/400/nature" alt="nature"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png"  data-src="https://picsum.photos/300/400" alt="random"/>
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="https://placeimg.com/300/400/tech" alt="technology placeholder" />
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="https://placeimg.com/300/400/arch" alt="Architecture" />
+        </picture>
+    </main>
+</body>
+<script src="scripts/imageLazing.js"></script>
+</html>
