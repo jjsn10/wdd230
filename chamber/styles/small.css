@@ -99,12 +99,21 @@ header nav ul li a:hover{
 
 nav ul { display:none;}
 nav ul.open {display: block;}
-
+/*
+#hamburguerBtn span:nth-child(1) {display: block;}
+#hamburguerBtn span:nth-child(2) {display: none;}
+*/
 #hamburguerBtn span:nth-child(1) {display: block;}
 #hamburguerBtn span:nth-child(2) {display: none;}
 
+/*
 #hamburguerBtn.open span:nth-child(1) {display: none;}
 #hamburguerBtn.open span:nth-child(2) {display: block;}
+*/
+
+#hamburguerBtn.open span:nth-child(1) {display: none;}
+#hamburguerBtn.open span:nth-child(2) {display: block;}
+
 main{
     padding: 5px;
     display: flex;
@@ -152,6 +161,11 @@ main div{
     grid-column: 1/6;
     grid-row: 1/5;
     
+}
+.hero picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .hero h3{
     /*position: absolute;
