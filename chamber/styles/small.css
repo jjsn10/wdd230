@@ -22,6 +22,7 @@ header{
     justify-content: space-between;*/
     /*flex-wrap: wrap;*/
     background-color:  rgb(97, 96, 96);
+    padding-bottom: 5px;
 }
 .header_menu{
     display: flex;
@@ -35,9 +36,10 @@ header img{
 #date{
     border: 1px solid gray;
     margin:5px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom:5px;
     text-align: center;
-    width: 100%;
+    /*width: 100%;*/
     color: white;
     font-family: 'Amaranth';
     font-size: 0.8rem;
