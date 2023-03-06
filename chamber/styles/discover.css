@@ -4,6 +4,7 @@
         width: 80%;
         margin: 0 auto;
         background-color: #7A98E9;
+        font-family:var(--paragraph-font);
     }
     main h1{
         text-align: center;
@@ -11,6 +12,12 @@
         margin-top:25px;
         margin-bottom: 25px;
         color: yellow;
+    }
+    .demo-discovery{
+        background-color: none;
+    }
+    .demo-discovery p{
+        
     }
     .image1{
         display: flex;
