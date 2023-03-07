@@ -4,7 +4,7 @@
         width: 80%;
         margin: 0 auto;
         background-color: #7A98E9;
-        font-family:var(--paragraph-font);
+        
     }
     main h1{
         text-align: center;
@@ -14,10 +14,26 @@
         color: yellow;
     }
     .demo-discovery{
-        background-color: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: var(--paragraph-font);
+        font-size: 1rem;
+        line-height: 25px;
+        height: 100%;
+        background: none;
+        border:none;
+        padding: 0 30px 0 30px;
     }
     .demo-discovery p{
-        
+        margin-top: 15px;
+    }
+    .demo-discovery ul{
+        width: 80%;
+        margin: 15px auto;
+    }
+    img[data-src]{
+        filter: blur(0.2em);
     }
     .image1{
         display: flex;
