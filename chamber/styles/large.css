@@ -63,6 +63,9 @@
           grid-column: 1/6;
           grid-row: 1/5;
    }
+.image1 picture img:hover{
+     box-shadow: 0 0 50px #333;
+}
    .hero h3{
      grid-column: 1/-1;
      grid-row: 1/2;
@@ -123,6 +126,15 @@
      /* Image 1 discover.html */
      .image1, .image2, .image3, .image4, .image5{
           height: 100%;
+     }
+     #days{
+          display: block;
+          text-align: center;
+          /*border:1px dashed red;*/
+          font-family: var(--paragraph-font);
+          margin: 10px 0;
+          color: rgb(73, 6, 6);
+          font-weight: bold;
      }
 
 }
