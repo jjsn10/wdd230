@@ -5,21 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Build | W08 Activity</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <main>
+        <h1>W08 Activity: Table Build</h1>
       <table>
         <caption>Table 1: Account Feature Comparison</caption>
         <thead>
-            <tr>
-                <th coldspan="2">ACME Wildwest Service</th>
+            <tr class="header_one">
+                <th colspan="4">ACME Wildwest Service</th>
             </tr>
-            <tr>
-                <th colspan="2">Basic</th>
-                <th colspan="2">Premium</th>
-                <th colspan="2">Deluxe</th>
+            <tr class="header_two">
+                <th></th>
+                <th>Basic</th>
+                <th>Premium</th>
+                <th>Deluxe</th>
             </tr>
         </thead>
+        <tbody> 
+            <tr>
+                <td>Feature 1</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Feature 2</td>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+
+        </tbody>
       </table>
-      
+    </main>
 </body>
 </html>
