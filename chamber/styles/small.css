@@ -391,6 +391,7 @@ main div{
 .join{
     display: none;
 }
+/* discovery*/
 footer{
     display: flex;
     flex-direction: column;
