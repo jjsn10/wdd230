@@ -63,9 +63,6 @@
           grid-column: 1/6;
           grid-row: 1/5;
    }
-.image1 picture img:hover{
-     box-shadow: 0 0 50px #333;
-}
    .hero h3{
      grid-column: 1/-1;
      grid-row: 1/2;

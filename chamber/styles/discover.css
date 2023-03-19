@@ -85,6 +85,9 @@
         .image1 h2{
             font-size: 1.2rem;
         }
+        .image1 picture img:hover{
+            box-shadow: 0 0 50px #333;
+        }
         #days{
             font-size: 0.9rem;
         }
@@ -101,6 +104,9 @@
         }
         .image1 h2{
             font-size: 1.4rem;
+        }
+        .image1 picture img:hover{
+            box-shadow: 0 0 50px #333;
         }
         #days{
             font-size: 1.1rem;
