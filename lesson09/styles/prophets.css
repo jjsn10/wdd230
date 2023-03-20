@@ -14,14 +14,18 @@ main,
 footer {
   /*margin: 1rem;*/
   position: relative;
-  
+}
+footer{
+    text-align: center;
 }
 main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap ;
     background-color: #d8d6d6;
     padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap ;
 }
 header h1{
    color: blueviolet;
@@ -32,6 +36,7 @@ header h1{
    
 }
 section{
+    flex-grow: 1;
     border: 1px solid black;
     margin: 0.25rem;
     padding: 0.35rem;
@@ -50,12 +55,16 @@ section h2{
 section span:nth-child(2){
     display: inline-block;
     margin-top: 10px;
+    font-size: 0.9rem;
 }
 section span:nth-child(3){
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
 }
 section img{
     width: 60%;
     margin: 0 auto;
+    width: 250px;
+    height: 322px;
 }
