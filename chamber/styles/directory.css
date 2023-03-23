@@ -4,7 +4,7 @@ main{
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	/*max-width: 700px;*/
-    max-width: 60%;
+    max-width: 80%;
 	background-color: #eee;
 	font-family: Roboto, Helvetica, sans-serif;
 }
@@ -28,12 +28,12 @@ section {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ccc;
+	background-color: #fff;
 }
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
+	/*align-items: center;*/
 }
 .grid section {
 	flex-direction: column;
@@ -47,17 +47,49 @@ section {
 .grid h3 {
 	font-family: "Caveat", cursive;
 }
+/* Showing as a list*/
+.list {
+	display: flex;
+	flex-direction: column;
+}
 
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+/* End Showing as a list */
 section h3 {
 	font-size: 1.0rem;
 }
-
+section p{
+    font-size: 0.8rem;
+}
 section a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
 }
 
 img {
-	height: 90px;
+	/*height: 50px;*/
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
