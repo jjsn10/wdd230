@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Comfortaa:wght@300&display=swap');
+:root{
+    /* Fonts for heading and paragraphs */
+    --heading-font: 'Amaranth';
+    --paragraph-font: 'Comfortaa';
+    /*Fonts Color*/
+    --font-heading-color: rgb(254, 248, 72);
+    --font-paragraph-color: #7A98E9;
+
+}
+main{
+    margin: 0 auto;
+    width: 60%;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    text-align: center;
+}
+p{
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+figcaption{
+    font-family: var(--paragraph-font);
+    color:var(--font-paragraph-color) ;
+    text-align: center;
+}
+figure img{
+    display: block;
+    margin: 0 auto;
+}
