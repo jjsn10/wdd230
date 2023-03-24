@@ -12,7 +12,7 @@ main{
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bbb;
+	background-color: #7A98E9;
 	text-align: center;
     height: auto;
 }
@@ -22,7 +22,7 @@ main{
 }
 article,
 section {
-	margin: 0.5rem;
+	margin: 0.3rem;
 }
 
 section {
@@ -69,6 +69,7 @@ section {
 }
 
 .list section h3 {
+    display: block;
 	font-size: 1rem;
 	font-family: Roboto, Helvetica, sans-serif;
 }
@@ -79,6 +80,7 @@ section {
 
 /* End Showing as a list */
 section h3 {
+    display: none;
 	font-size: 1.0rem;
 }
 section p{
