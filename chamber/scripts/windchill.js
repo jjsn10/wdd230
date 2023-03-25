@@ -3,6 +3,7 @@ calculate the wind chill factor
 */
 
 const temp = document.getElementById("temp");
+let tempcal = 0;
 const speed = document.getElementById("speed");
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('.figcaption');
@@ -33,25 +34,38 @@ apiFetch();
 function displayResults(weatherData) {
     temp.innerText = `${weatherData.list[0].main.temp.toFixed(0)}`;
     speed.innerText = `${weatherData.list[0].wind.speed.toFixed(0)}`;
-    //console("37: ",weatherData.list[0].main.wind.speed);
-
+    tempcal = weatherData.list[0].wind.speed.toFixed(0);
+    //console.log("Line 38: ",temp.innerText);
+    //console.log("37: ",weatherData.list[0].wind.speed.toFixed(0));
+    //console.log("Line 39:",tempcal);
+    parameters = {
+      'tempcalc': temp.innerText,
+      'speedcalc':speed.innerText
+    }
+    console.log("line 45",parameters);
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
     const desc = weatherData.list[0].weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    calcWindChill(parameters);
   }
 /* End Showing Weather forecast */
-console.log("Line 46: ", temp.getElementsByTagName("span").innerText);
-console.log("Line 47: ", speed.textContent);
+
 /* checking wind chill specification temperature <=50F and wind speeds >3.0 mph */
 
-if (temp <= 50 && speed > 3){
-    f= 34.74 + 0.6215*temp - 35.75*speed**0.16 +0.4275*temp*speed**0.16;
+function calcWindChill(parameters){
+  const {tempcalc,speedcalc} = parameters;
+  /*console.log("Line 60: ",tempcalc,speedcalc);*/
+  /*console.log("Line 59 :",parameters.tempcalc);
+  console.log("Line 60 :",parameters.speedcalc);*/
+
+if (tempcalc <= 50 && speedcalc > 3){
+    f= 34.74 + 0.6215*tempcalc - 35.75*speedcalc**0.16 +0.4275*tempcalc*speedcalc**0.16;
     f_rounded = Math.round(f * (10^2))/(10^2);
-    console.log("14:", Math.round(f * (10^2))/(10^2));
-    console.log("wind chill");
+    /*console.log("14:", Math.round(f * (10^2))/(10^2));
+    console.log("wind chill");*/
     let wc = document.getElementById("windchill");
     wc.textContent = `${f_rounded} Mph`;
 }else{
@@ -59,3 +73,4 @@ if (temp <= 50 && speed > 3){
     wc.textContent = "N/A";
 }
 
+}
