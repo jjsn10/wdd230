@@ -3,7 +3,7 @@ const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophet
 async function getProphetData(){
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data.prophets);
+    /*console.log(data.prophets);*/
     displayProphets(data.prophets);
 }
 
