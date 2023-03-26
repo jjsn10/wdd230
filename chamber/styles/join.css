@@ -12,24 +12,39 @@ main div{
     background:none
 }
 main h1{
+    display: block;
     text-align: center;
+    font-family: var(--heading-font);
+    margin: 25px 0 0 0;
 }
 form{
     display: grid;
     border: 1px solid blue;
-    grid-gap: 0.35rem;
-    grid-template-columns: 1fr 1fr;
-    width: 425px;
-    margin: 0 auto;
+    grid-gap: 0.50rem;
+    grid-template-columns: 1fr 2fr;
+    width: 600px;
+    margin: 25px auto;
     align-items: center;
+    padding: 25px;
+}
+
+/*label{
+    text-align: right;
+}*/
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #ddd;
 }
 label{
-    text-align: right;
+    grid-column: 1/2;
+    font-family: var(--paragraph-font);
+    font-weight: bold;
 }
 label,
 input,
 textarea,
 select,
 button {
-	padding: 0.35rem;
+	padding: 0.50rem;
 }

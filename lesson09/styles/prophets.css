@@ -23,9 +23,13 @@ main{
     padding: 10px;
 }
 .cards{
-    display: flex;
+    /*display: flex;
     flex-direction:row;
-    flex-wrap:wrap ;
+    flex-wrap:wrap;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    align-items: center ;
+
 }
 header h1{
    color: blueviolet;
