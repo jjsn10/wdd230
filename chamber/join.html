@@ -43,17 +43,18 @@
             <label for="first_name">First Name:</label>
             <input type="text" name="first_name" placeholder="Your First Name" required/>
             <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" placeholder="Your Last Name" required/>
-            <label for="title">Title:</label>
-            <input type="text" name="title"/>
+            <input type="text" name="last_name" placeholder="Your Last Name" required/>  
             <label for="email">Email:</label>
             <input type="email" name="email" placeholder="someone@gmail.com"/>
             <label for="phone">Phone Number:</label>
             <input type="tel" name="phone" placeholder="xxxxxxxxxx"pattern="[0-9]{10}" required />
             <label for="business_name">Business Name:</label>
-            <input type="text" name="business_name"/>
-            <label for="business_name">Membership:</label>
-            <select name="membership" id="membership">
+            <input type="text" name="business_name" required/>
+            <label for="title">Your Business Title:</label>
+            <input type="text" name="title" placeholder="e.g Manager" pattern="[A-Za-z]{7}" required/>
+            <label for="membership">Membership:</label>
+            <select required name="membership" id="membership">
+                <option disabled selected value="">Please Select</option>
                 <option value="NP">NP</option>
                 <option value="Bronze">Bronze </option>
                 <option value="Silver">Silver </option>
@@ -64,6 +65,50 @@
             <input type="hidden" name="date_time" id="date_time"/>
             <input type="submit" value="Register" />
         </form>
+        <div class="membership">
+            <h2>Membership</h2>
+            <p>Commerce Town offer different types of benefit according to the memberships.</p>
+            <div class="member_desc">
+                <h3>Non-Profit</h3>
+                <p><b>Price:</b> Free</p>
+                <h4>Benefits:</h4>
+                <ul>
+                    <li>Add your business in our directory.</li>
+                    <li>One free training events per month.</li>
+                    <li>15% off in all events per month.</li>
+                </ul>
+            </div>
+            <div class="member_desc">
+                <h3>Bronze </h3>
+                <p><b>Price:</b> $25 Monthly</p>
+                <h4>Benefits:</h4>
+                <ul>
+                    <li>Add your business in our directory.</li>
+                    <li>Two free training events per month.</li>
+                    <li>25% off in all events per month.</li>
+                </ul>
+            </div>
+            <div class="member_desc">
+                <h3>Silver</h3>
+                <p><b>Price:</b> $50 Monthly</p>
+                <h4>Benefits:</h4>
+                <ul>
+                    <li>Add your business in our directory.</li>
+                    <li>Three free ads per month in the main page.</li>
+                    <li>50% off in all events per month.</li>
+                </ul>
+            </div>
+            <div class="member_desc">
+                <h3>Gold </h3>
+                <p><b>Price:</b> $120 Monthly</p>
+                <h4>Benefits:</h4>
+                <ul>
+                    <li>Add your business in our directory.</li>
+                    <li>Five free ads per month in the main page.</li>
+                    <li>75% off in all events per month.</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer1">
