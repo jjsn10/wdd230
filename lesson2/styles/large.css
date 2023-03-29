@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1024px){
+    main{
+        grid-template-columns: 3;
+    }
+    .contrast{
+        grid-column: 1/2;
+    }
+    .repetition{
+        grid-column: 2/3;
+    }
+    .balance{
+        grid-column: 3/4;
+    }
+}
