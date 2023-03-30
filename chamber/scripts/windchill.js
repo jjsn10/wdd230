@@ -17,7 +17,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        //console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -42,7 +42,7 @@ function displayResults(weatherData) {
       'tempcalc': temp.innerText,
       'speedcalc':speed.innerText
     }
-    console.log("line 45",parameters);
+    //console.log("line 45",parameters);
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
     const desc = weatherData.list[0].weather[0].description;
 

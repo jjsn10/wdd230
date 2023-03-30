@@ -1,6 +1,6 @@
 //getting all images with data-src 
 const imagesToLoad = document.querySelectorAll("img[data-src]");
-console.log(imagesToLoad);
+//console.log(imagesToLoad);
 
 const imgOptions = {
     rootMargin: '0px 0px 50px 0px',

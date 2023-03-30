@@ -25,7 +25,7 @@ const getCurrentDate = new Date();
 //getting and format the year as a number
 const year = getCurrentDate.getFullYear();
 const day = getCurrentDate.getDay();
-console.log("27:",day);
+//console.log("27:",day);
 
 let html_year=document.querySelector('#year');
 html_year.textContent = year;
@@ -43,8 +43,8 @@ const numberDay = getCurrentDate.getDate();
 const monthName = month[getCurrentDate.getMonth()];
 
 let dateinf = document.getElementById("date");
-console.log("45",sDay);
-console.log("46",lDay);
+//console.log("45",sDay);
+//console.log("46",lDay);
 if (sDay === "Mon" || sDay === "Tue"){
     dateinf.textContent = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
     //console.log(dateinf);
