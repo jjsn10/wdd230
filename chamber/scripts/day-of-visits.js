@@ -17,7 +17,7 @@ if (localStorage.getItem("startDate")){
     document.getElementById("days").textContent = `You have visited this website ${amountDays} days`;
 }else{
     document.getElementById("days").textContent =' This is your first time';
-    console.log("This is your first time");
+    //console.log("This is your first time");
 }
 localStorage.setItem("startDate",today)
 
