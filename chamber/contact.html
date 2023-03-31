@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Commerce Town | Join</title>
+    <title>Chamber Commerce Town | Conctact</title>
     <meta description="This website shows the commerces in Saratoga Springs providing accurate information for future investors and partners.">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -37,8 +37,8 @@
         <div id="date"></div>
     </header>
     <main>
-        <h1>Application Form to Join to Commerce Town Chamber</h1>
-        <form action="thankyou.html" method="GET">
+        <h1>Contact Form to Request Information</h1>
+        <form action="thankyou_contact.html" method="GET">
             <div id="formmessage"></div>
             <label for="first_name">First Name:</label>
             <input type="text" name="first_name" placeholder="Your First Name" required/>
@@ -48,66 +48,30 @@
             <input type="email" name="email" placeholder="someone@gmail.com"/>
             <label for="phone">Phone Number:</label>
             <input type="tel" name="phone" placeholder="xxxxxxxxxx"pattern="[0-9]{10}" required />
-            <label for="business_name">Business Name:</label>
-            <input type="text" name="business_name" required/>
-            <label for="title">Your Business Title:</label>
-            <input type="text" name="title" placeholder="e.g Manager" pattern="[A-Za-z]{7,}" required/>
-            <label for="membership">Membership:</label>
-            <select required name="membership" id="membership">
-                <option disabled selected value="">Please Select</option>
-                <option value="NP">NP</option>
-                <option value="Bronze">Bronze </option>
-                <option value="Silver">Silver </option>
-                <option value="Gold">Gold </option>
-            </select>
-            <label for="business_name">Business Description:</label>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" required/>
+           
+            <label for="business_name">Message:</label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <input type="hidden" name="date_time" id="date_time"/>
-            <input type="submit" value="Register" />
+            <input type="submit" value="Submit" />
         </form>
         <div class="membership">
-            <h2>Membership</h2>
-            <p>Commerce Town offer different types of benefit according to the memberships.</p>
+            <h2>Office</h2>
+            <p>Visit our comfortable facilities located close to the main avenue in Saratoga Spring. </p>
+            <img src="images/office-map.png" alt="office-map">
             <div class="member_desc">
-                <h3>Non-Profit</h3>
-                <p><b>Price:</b> Free</p>
-                <h4>Benefits:</h4>
+                <h3>1307 Commerce Dr, Saratoga Springs, UT 84045</h3>
+                <p><b>Opens:</b> Monday - Friday 9:00am - 7:00pm</p>
+                <p><b>Phone:</b> (385)562-5600</p>
+                <h4>Departments:</h4>
                 <ul>
-                    <li>Add your business in our directory.</li>
-                    <li>One free training events per month.</li>
-                    <li>15% off in all events per month.</li>
+                    <li>E-Commerce</li>
+                    <li>Customer Services</li>
+                    <li>Auditorium</li>
                 </ul>
             </div>
-            <div class="member_desc">
-                <h3>Bronze </h3>
-                <p><b>Price:</b> $25 Monthly</p>
-                <h4>Benefits:</h4>
-                <ul>
-                    <li>Add your business in our directory.</li>
-                    <li>Two free training events per month.</li>
-                    <li>25% off in all events per month.</li>
-                </ul>
-            </div>
-            <div class="member_desc">
-                <h3>Silver</h3>
-                <p><b>Price:</b> $50 Monthly</p>
-                <h4>Benefits:</h4>
-                <ul>
-                    <li>Add your business in our directory.</li>
-                    <li>Three free ads per month in the main page.</li>
-                    <li>50% off in all events per month.</li>
-                </ul>
-            </div>
-            <div class="member_desc">
-                <h3>Gold </h3>
-                <p><b>Price:</b> $120 Monthly</p>
-                <h4>Benefits:</h4>
-                <ul>
-                    <li>Add your business in our directory.</li>
-                    <li>Five free ads per month in the main page.</li>
-                    <li>75% off in all events per month.</li>
-                </ul>
-            </div>
+            
         </div>
     </main>
     <footer>

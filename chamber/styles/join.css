@@ -75,6 +75,10 @@ form input[type="submit"]{
 .membership p{
     margin: 15px 15px;
 }
+.membership img{
+    width: 100%;
+    border: 2px solid gray;
+}
 .member_desc{
     height: auto;
 }
