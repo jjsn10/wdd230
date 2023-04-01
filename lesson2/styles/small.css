@@ -19,7 +19,7 @@ header h1, h2{
 }
 main{
     display: grid;
-    grid-template-rows: 3;
+    grid-template-rows: repeat(3, 1fr);
 }
 .contrast ul, .repetition ul, .balance ul{
     list-style-type: none;
