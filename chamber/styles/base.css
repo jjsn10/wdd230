@@ -46,8 +46,10 @@ header img{
     background-color: rgb(126, 126, 126);
 }
 nav{
+    /*display: flex;*/
     /*background-color: rgb(49, 49, 49);*/
-    align-self: flex-start;
+    /*justify-content: space-between;*/
+    /*align-self: center;*/
     background-color:  rgb(97, 96, 96);
 }
 nav button {
@@ -91,7 +93,7 @@ nav ul{
     display: block;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 50px 0 0 0;
 }
 header nav ul li a{
     display: block;
@@ -101,7 +103,7 @@ header nav ul li a{
     font-size: 1.2rem;
 }
 header nav ul li a:hover{
-    background-color: rgb(99, 97, 97);
+    background-color: rgb(199, 193, 193);
 }
 
 
