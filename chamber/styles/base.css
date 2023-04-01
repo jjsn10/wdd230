@@ -342,7 +342,6 @@ main div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*background-image: url(../images/billboards-marketing.jpg);*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/billboards-marketing.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -367,7 +366,7 @@ main div{
     flex-direction: column;
     justify-content: space-between;
     /*background-image: url(../images/billboards-marketing.jpg);*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/townstorage.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/town-storage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
