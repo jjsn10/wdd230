@@ -5,63 +5,63 @@
         "address":"13903 S Redwood Rd Bluffdale, UT 84065",
         "phone_number":"(801) 446-3106",
         "website":"https://www.gwcu.org",
-        "image":"images/goldenwest_logo.png",
+        "image":"images/goldenwest-logo.png",
         "membership_level":"Premium"
     },{
         "name":"Walmart Saratoga Springs",
         "address":"136 w state road #73 Saratoga Springs, UT 84045",
         "phone_number":"(801) 766-4272",
         "website":"https://www.walmart.com",
-        "image":"images/walmart_logo.png",
+        "image":"images/walmart-logo.png",
         "membership_level":"Gold"
     },{
         "name":"Flat Top Accounting Solutions",
         "address":"679 W Baxter LN Saratoga Springs, UT 84045",
         "phone_number":"(801) 809-4843",
         "website":"https://www.flattopas.com",
-        "image":"images/flat_top_logo.png",
+        "image":"images/flat-top-logo.png",
         "membership_level":"premium"
     },{
         "name":"Larson & Company",
         "address":"11240 South River Heights Drive South Jordan, UT 84095",
         "phone_number":"(801) 313-1900",
         "website":"https://larsco.com",
-        "image":"images/larson_logo.png",
+        "image":"images/larson-logo.png",
         "membership_level":"Gold"
     },{
         "name":"Lawn Doctor",
         "address":"1530 N State St Unit B, Lehi, UT",
         "phone_number":"(801) 997-9002",
         "website":"https://www.lawndoctor.com",
-        "image":"images/lawn_doctor_logo.png",
+        "image":"images/lawn-doctor-logo.png",
         "membership_level":"Premium"
     },{
         "name":"Light Lounge",
         "address":"3397 N 1200 E, Suite 103 Lehi, UT 84043",
         "phone_number":"(801) 342-5374",
         "website":"https://lightlounge.life",
-        "image":"images/light_lounge_logo.png",
+        "image":"images/light-lounge-logo.png",
         "membership_level":"Gold"
     },{
         "name":"Life Shop",
         "address":"24 West Main Lehi, UT 84043",
         "phone_number":"(801) 901-6626",
         "website":"https://www.lifeshop.co",
-        "image":"images/life_shop_logo.png",
+        "image":"images/life-shop-logo.png",
         "membership_level":"Gold"
     },{
         "name":"Les Olson",
         "address":"480 N Geneva Rd Lindon, UT 84042",
         "phone_number":"(801) 785-5432",
         "website":"https://lesolson.com",
-        "image":"images/les_olson_logo.png",
+        "image":"images/les-olson-logo.png",
         "membership_level":"Premium"
     },{
         "name":"Olive Garden",
         "address":"947 N Redwood Road Saratoga Springs, UT 84045",
         "phone_number":"(385) 287-3792",
         "website":"https://www.olivegarden.com",
-        "image":"images/olive_garden_logo.png",
+        "image":"images/olive-garden-logo.png",
         "membership_level":"Gold"
     }
   ]
