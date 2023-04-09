@@ -34,7 +34,9 @@ let date_formated = getCurrentDate.toLocaleDateString('en-US',options_date)
 let current_time = getCurrentDate.toLocaleTimeString('en-US',options_time)
 
 let html_date_time=document.querySelector('#date_time');
-html_date_time.textContent =` ${date_formated} ${current_time}`
+let html_date_time_hidden = document.querySelector('#date_time_hidden');
+html_date_time.textContent =` ${date_formated} ${current_time}`;
+html_date_time_hidden = ` ${date_formated} ${current_time}`;
 
 //Getting Current short Day a long Date
 const sDay= getCurrentDate.toLocaleDateString('en-US',optionShort);
